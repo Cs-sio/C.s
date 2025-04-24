@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Portfolio Cybersécurité</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <div class="min-h-screen bg-[#1a1a1a] text-white p-8">
+        <div class="max-w-7xl mx-auto">
+            <header class="text-center mb-16">
+                <h1 class="text-4xl font-bold text-[#00ff9d] mb-4 font-crimson-text">
+                    Mes Projets
+                </h1>
+                <p class="text-lg text-gray-300">
+                    Portfolio de mes réalisations en cybersécurité et réseaux
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="projects-grid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+
+            <div id="project-modal" class="modal hidden">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 id="modal-title"></h2>
+                        <p id="modal-category"></p>
+                        <button class="close-button">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="description-section">
+                            <h3>Description</h3>
+                            <p id="modal-description"></p>
+                        </div>
+                        <div class="technologies-section">
+                            <h3>Technologies</h3>
+                            <div id="modal-technologies" class="tech-tags"></div>
+                        </div>
+                        <div class="results-section">
+                            <h3>Résultats</h3>
+                            <div id="modal-results" class="results-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="projects.js"></script>
+</body>
+</html> 

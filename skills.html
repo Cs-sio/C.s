@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences - Portfolio Cybersécurité</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="skills.css">
+</head>
+<body>
+    <div class="min-h-screen bg-[#1a1a1a] text-white p-8">
+        <div class="max-w-7xl mx-auto">
+            <header class="text-center mb-16">
+                <h1 class="text-4xl font-bold text-[#00ff9d] mb-4 font-crimson-text">
+                    Compétences Techniques
+                </h1>
+                <p class="text-lg text-gray-300">
+                    Une vue détaillée de mes expertises en cybersécurité et réseaux
+                </p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Sécurité Réseau -->
+                <div class="skill-card network-card" data-category="network">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-shield-alt network-icon text-2xl mr-3"></i>
+                        <h2 class="text-2xl font-crimson-text font-bold text-white">
+                            Sécurité Réseau
+                        </h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Pare-feu & IDS/IPS
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Configuration de pare-feu nouvelle génération</li>
+                                <li>Déploiement de solutions Snort et Suricata</li>
+                                <li>Gestion des règles et politiques de sécurité</li>
+                                <li>Analyse des logs et détection d'intrusion</li>
+                            </ul>
+                        </div>
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                VPN & Cryptographie
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Mise en place de VPN site-à-site et client-to-site</li>
+                                <li>Gestion des certificats SSL/TLS</li>
+                                <li>Implémentation du chiffrement AES et RSA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cybersécurité -->
+                <div class="skill-card cybersecurity-card" data-category="cybersecurity">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-bug cybersecurity-icon text-2xl mr-3"></i>
+                        <h2 class="text-2xl font-crimson-text font-bold text-white">
+                            Cybersécurité
+                        </h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Tests d'intrusion
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Méthodologie OWASP Top 10</li>
+                                <li>Utilisation d'outils comme Metasploit et Burp Suite</li>
+                                <li>Tests d'intrusion Web et infrastructure</li>
+                                <li>Rédaction de rapports détaillés</li>
+                            </ul>
+                        </div>
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Analyse de malwares
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Analyse statique et dynamique</li>
+                                <li>Reverse engineering de base</li>
+                                <li>Environnements d'analyse sécurisés</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Systèmes -->
+                <div class="skill-card systems-card" data-category="systems">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-server systems-icon text-2xl mr-3"></i>
+                        <h2 class="text-2xl font-crimson-text font-bold text-white">
+                            Systèmes
+                        </h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Linux/Unix
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Administration système avancée</li>
+                                <li>Shell scripting (Bash, Python)</li>
+                                <li>Hardening de systèmes</li>
+                                <li>Gestion des services et démons</li>
+                            </ul>
+                        </div>
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Cloud Security
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Sécurisation d'environnements AWS et Azure</li>
+                                <li>Configuration de pare-feu cloud</li>
+                                <li>Gestion des identités et accès (IAM)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Développement Sécurisé -->
+                <div class="skill-card development-card" data-category="development">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-code development-icon text-2xl mr-3"></i>
+                        <h2 class="text-2xl font-crimson-text font-bold text-white">
+                            Développement Sécurisé
+                        </h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Pratiques DevSecOps
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Intégration de la sécurité dans CI/CD</li>
+                                <li>Tests de sécurité automatisés</li>
+                                <li>Analyse de code statique et dynamique</li>
+                            </ul>
+                        </div>
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Sécurité des applications
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Validation des entrées</li>
+                                <li>Protection contre les injections</li>
+                                <li>Gestion sécurisée des sessions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Forensics -->
+                <div class="skill-card forensics-card" data-category="forensics">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-search forensics-icon text-2xl mr-3"></i>
+                        <h2 class="text-2xl font-crimson-text font-bold text-white">
+                            Forensics
+                        </h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Analyse forensique
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Acquisition de preuves numériques</li>
+                                <li>Analyse de mémoire vive</li>
+                                <li>Reconstruction chronologique</li>
+                                <li>Documentation légale</li>
+                            </ul>
+                        </div>
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Outils spécialisés
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Utilisation de Volatility</li>
+                                <li>Analyse avec Autopsy</li>
+                                <li>Récupération de données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gestion de Projets -->
+                <div class="skill-card management-card" data-category="management">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-project-diagram management-icon text-2xl mr-3"></i>
+                        <h2 class="text-2xl font-crimson-text font-bold text-white">
+                            Gestion de Projets
+                        </h2>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Méthodologie
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Gestion de projets de sécurité</li>
+                                <li>Évaluation des risques</li>
+                                <li>Plans de continuité d'activité</li>
+                            </ul>
+                        </div>
+                        <div class="skill-section">
+                            <h3 class="text-[#00ff9d] font-semibold mb-2">
+                                Communication
+                            </h3>
+                            <ul class="text-white space-y-2">
+                                <li>Présentation technique</li>
+                                <li>Formation des utilisateurs</li>
+                                <li>Documentation technique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="skills.js"></script>
+</body>
+</html> 
